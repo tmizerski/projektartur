@@ -1,0 +1,11 @@
+.DataListItem--list {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.DataListItem--list li {
+    margin: 5px;
+    font-size: 20px;
+}

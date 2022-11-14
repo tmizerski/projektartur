@@ -1,0 +1,77 @@
+.listSection {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.dataList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: #f8f8ff;
+    border-collapse: collapse;
+    color: #484f63;;
+}
+
+tr {
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+td, th {
+    margin: 5px;
+}
+
+.number {
+    min-width: 160px;
+}
+
+.symbol {
+    min-width: 75px;
+}
+
+.date {
+    min-width: 100px;
+}
+
+.net {
+    min-width: 70px;
+}
+
+.items {
+    min-width: 55px;
+}
+
+.even {
+    background: #f0f8ff;
+}
+
+.odd {
+    background: #bcd4e6;
+}
+
+.heads {
+    background: #779ecb;
+}
+
+.pageNav {
+    justify-self: flex-end;
+}
+.pageNav button {
+    width: 80px;
+    height: 50px;
+    margin: 20px 10px;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+.buttonIcons {
+    font-size: 25px;
+}

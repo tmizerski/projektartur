@@ -1,0 +1,80 @@
+.filterArea {
+    maring: 2rem auto;
+    padding: 10px;
+    min-height: 100%;
+    background: #b0c4de;
+    color: #484f63;
+    font-size: 14px;
+}
+
+.filterTitle {
+    margin: 15px auto;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.filterDataContainer {
+    height: 90%;
+    min-width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.buttonContainer {
+    min-width: 100%;
+    margin-top: 100px;
+}
+
+.filterButton {
+    align-self: center;
+    line-height: 25px;
+    min-width: 100%;
+    margin-bottom: 10px;
+    background: royalblue;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filterButton:hover {
+    background: #1f2161;
+}
+
+.filterButton:active {
+    font-size: 12px;
+}
+
+input {
+    height: 20px;
+}
+
+div.inactive {
+    min-height: 100px;
+    margin-top: 5px 0;
+    padding: 7px 0;
+}
+
+
+
+.secondSymbol label {
+    height: 0;
+}
+
+.pageRange {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#pageRangeSelect {
+    margin: 0 auto;
+    width: 107px;
+}

@@ -1,0 +1,32 @@
+.inputFilter {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+input {
+    border-radius: 4px;
+    border: 1px solid rgba(172, 171, 176);
+    line-height: 16px;
+    color: lightslategray;
+}
+
+input:focus {
+    box-shadow: inset 0px 0px 6px 0px rgba(66, 68, 90, 1);
+    outline: none;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
